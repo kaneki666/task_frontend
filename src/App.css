@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  margin: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  color: #333333;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  border: 0 none;
+  -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 200ms ease;
+  -moz-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 200ms ease;
+  -o-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 200ms ease;
+  -ms-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 200ms ease;
+  transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 200ms ease;
+}
+.card:not(.card-plain):hover {
+  box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+.card.no-transition:hover,
+.card.page-carousel:hover,
+.card.card-refine:hover,
+.card.card-register:hover {
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -moz-transform: none;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.price {
+  font-size: 20px;
+  float: right;
+}
+
+.details {
+  padding-top: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.center {
+  justify-content: center;
+  align-self: center;
+}
+.emptycart {
+  margin-top: 100px;
+  text-align: center;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.detailslink {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cartdetails {
+  float: right;
+  padding-top: 10px;
+}
+.productsmargin {
+  margin: 10px;
+}
+
+.cartimage {
+  width: 250px;
+  background-size: contain;
+  border-radius: 150px;
+}
+.navroot {
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  height: 80px;
+}
