@@ -145,7 +145,7 @@ const Cart = () => {
                     </Button>
                   </IconContext.Provider>
                   <Modal isOpen={modal} toggle={toggle}>
-                    <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+                    <ModalHeader toggle={toggle}>ORDER INFO</ModalHeader>
                     <ModalBody>
                       Your order has been placed succesfully.
                     </ModalBody>
